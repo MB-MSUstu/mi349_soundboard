@@ -1,0 +1,80 @@
+html{
+    background-color: #e3e3d3;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    padding: 40px;
+    color: #242424;
+    border-top: 10px solid #242424;
+    background: #fff;
+}
+
+h1{
+    font-size: 4em;
+    margin: 0;
+    text-align: center;
+}
+h3{
+    font-size: 1.5em;
+    text-align: center;
+}
+p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#sounds{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+#sound{
+    background: rgb(207, 207, 207);
+    border: 2px solid #4b4b4b;
+    border-radius: 10px;
+    padding: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: rgba(0,0,0, 0.1) 0 3px 3px;
+}
+
+input{
+    padding: 20px;
+    padding-inline: 60px;
+    margin-inline: 10px;
+    font-size: 1.75em;
+    font-weight: bold;
+    border-width: 5px;
+}
+
+#btn_explosion{
+    border-color: orangered;
+}
+#hvr_explosion{
+    border-color: maroon;
+}
+
+#btn_laser{
+    border-color: limegreen;
+}
+#hvr_laser{
+    border-color: green;
+}
+
+#btn_splash{
+    border-color: aqua;
+}
+#hvr_splash{
+    border-color: darkcyan;
+}
